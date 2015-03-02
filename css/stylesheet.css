@@ -121,11 +121,6 @@ a:active {
 }
 /* end link stuff*/
 
-/* google Calendar stuff*/
-.st-bg { background:black; }
-.st-bg-today { background:yellow; border-left:1px solid yellow; border-right:1px solid yellow; }
-.st-dtitle { background:white; }
-/*end google Calendar stuff*/
 
 /* other stuff (self explanatory)*/
 #athletePics{
@@ -137,6 +132,27 @@ a:active {
   height: 12em;
   padding-bottom: 3px;
 }
+
+/* Responsive iFrame for Calendar */
+
+.responsive-iframe-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+
+.responsive-iframe-container iframe,
+.vresponsive-iframe-container object,
+.vresponsive-iframe-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+/* End Responsive iFrame for Calendar */
 
 
  body {
