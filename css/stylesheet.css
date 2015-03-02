@@ -71,11 +71,11 @@ font-weight: bold;
 }
 
 #instafeed a {
-  padding: .2px .2px .2px .2px;
-  margin:10px;
+  padding: .1px .1px .1px .1px;
+  margin:4px;
 /*  border:1px solid #e1e1e1;*/
   display:inline-block;
-  border-radius: 4px;
+  border-radius: 1px;
   position:relative;
 }
 /* end instafeed stuff */
