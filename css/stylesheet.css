@@ -155,15 +155,35 @@ height: 100%;
 
 
  body {
-    background-color: black;
+  background-color: white;
+  margin:0; 
+  padding:0;
+  border: 0;
+  outline: 0;
+  vertical-align: top;
   }
 
+header {
+  background-color: black;
+ /* overflow:auto;*/
+  margin:0;
+  padding:0;
+  width: 100%;
+}
 
-#wrapper {
+footer {
+  background-color: black;
+ /* overflow:auto;*/
+  margin:0;
+  padding:0;
+  height: 150px;
+}
+
+/*#wrapper {
   border: 1px #e4e4e4 solid;
   padding: 2px 20px;
   border-radius: 2px;
   box-shadow: 0 0 6px #ccc;
   background-color: #fff;
-}
+}*/
 /* end other stuff (self explanatory)*/
