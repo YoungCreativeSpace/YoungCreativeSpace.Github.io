@@ -162,7 +162,9 @@ height: 100%;
   border: 0;
   outline: 0;
   vertical-align: top;
-  overflow-x: hidden
+  overflow-x: hidden;
+  display: block;
+ width: 100%;
   }
 
 header {
