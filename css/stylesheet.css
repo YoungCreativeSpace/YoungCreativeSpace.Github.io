@@ -67,6 +67,7 @@ font-weight: bold;
   display:inline-block;
   border-radius: 4px;
   position:relative;
+  float: center;
  /* float: right;*/
 }
 
