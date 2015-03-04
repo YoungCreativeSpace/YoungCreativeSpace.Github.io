@@ -180,6 +180,11 @@ footer {
   height: 150px;
 }
 
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+}
+
 /*#wrapper {
   border: 1px #e4e4e4 solid;
   padding: 2px 20px;
