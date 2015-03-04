@@ -164,7 +164,7 @@ height: 100%;
   vertical-align: top;
   overflow-x: hidden;
   display: block;
- width: 100%;
+  width: 100%;
   }
 
 header {
@@ -182,13 +182,15 @@ footer {
   margin:0;
   padding:0;
   height: 150px;
-  overflow-x: hidden
+  overflow-x: hidden;
+  width: 100%;
 }
 
 .container-full {
   margin: 0 auto;
   width: 100%;
-  overflow-x: hidden
+  overflow-x: hidden;
+  width: 100%;
 }
 
 /*#wrapper {
