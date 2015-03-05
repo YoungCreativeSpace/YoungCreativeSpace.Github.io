@@ -72,6 +72,7 @@ font-weight: bold;
   border-radius: 4px;
   margin-left: auto;
   margin-right: auto;
+  position: fixed;
 }
 
 #instafeed a {
@@ -83,6 +84,7 @@ font-weight: bold;
   border-radius: 1px;
   margin-left: auto;
   margin-right: auto;
+  position: fixed;
 }
 /* end instafeed stuff */
 
