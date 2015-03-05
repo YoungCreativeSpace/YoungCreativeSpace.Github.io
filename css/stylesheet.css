@@ -63,11 +63,10 @@ font-weight: bold;
 #instafeed{
   padding: .2px .2px .2px .2px;
   margin:10px;
-/*  border:1px solid #e1e1e1;*/
+  border:1px solid #e1e1e1;
   display:inline-block;
   border-radius: 4px;
   position:center;
-  float: left;
  /* float: right;*/
 }
 
@@ -76,9 +75,9 @@ font-weight: bold;
   margin:5px;
 /*  border:1px solid #e1e1e1;*/
   display:inline-block;
+  display: inline-block;
   border-radius: 1px;
   position:center;
-  float: center;
 }
 /* end instafeed stuff */
 
