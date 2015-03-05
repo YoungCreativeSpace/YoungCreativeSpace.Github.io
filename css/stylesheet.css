@@ -69,6 +69,10 @@ font-weight: bold;
   display:inline-block;
   border-radius: 4px;
   position:relative;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
  /* float: right;*/
 }
 
@@ -79,6 +83,10 @@ font-weight: bold;
   display:inline-block;
   border-radius: 1px;
   position:relative;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 /* end instafeed stuff */
 
