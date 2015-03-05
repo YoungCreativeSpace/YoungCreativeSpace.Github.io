@@ -62,8 +62,8 @@ font-weight: bold;
 /* instafeed stuff - populates index page with instagram pics  */
 #instafeed{
   padding: .2px .2px .2px .2px;
-  margin:10px;
-  border:1px solid #e1e1e1;
+  margin:10px;/*
+  border:1px solid #e1e1e1;*/
   display:inline-block;
   border-radius: 4px;
   position:center;
