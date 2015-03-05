@@ -69,7 +69,6 @@ font-weight: bold;
   display:inline-block;
   border-radius: 4px;
   position:center;
-  float: left;
  /* float: right;*/
 }
 
@@ -81,7 +80,6 @@ font-weight: bold;
   display: inline-block;
   border-radius: 1px;
   position:center;
-  float: left;
 }
 /* end instafeed stuff */
 
