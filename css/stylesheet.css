@@ -73,7 +73,6 @@ font-weight: bold;
   display:inline-block;
   border-radius: 4px;
   left: 50%;
-  margin: 0 auto;
 
  /* float: right;*/
 }
@@ -88,7 +87,6 @@ font-weight: bold;
   padding-left: 5px;
   left: 50%;
   text-align:center;
-  margin: 0 auto;
 }
 /* end instafeed stuff */
 
