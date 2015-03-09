@@ -222,6 +222,17 @@ footer {
   overflow-x: hidden !important;
 }
 
+/* "Twitter" and "News" page wrappers ////////////////*/
+.newsContainer {
+  left: 25%;
+  right:25%;
+  background-color: #fff;
+}
+/*End "Twitter" and "News" page wrappers ////////////////*/
+
+
+
+
 /*#wrapper {
   border: 1px #e4e4e4 solid;
   padding: 2px 20px;
