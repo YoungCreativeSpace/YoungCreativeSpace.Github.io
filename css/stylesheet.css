@@ -69,10 +69,13 @@ font-weight: bold;
 #instafeed{
   padding: .2px .2px .2px .2px;
   margin:10px;
-  text-align:center;
-  /*display:inline-block;*/
+ /* border:1px solid #e1e1e1;*/
+  display:inline-block;
   border-radius: 4px;
- /* left: 50%;*/
+  /*position: fixed;*/
+/*  padding-right: 5px;
+  padding-left: 5px;*/
+  left: 50%;
 
  /* float: right;*/
 }
@@ -80,13 +83,13 @@ font-weight: bold;
 #instafeed a {
   padding: .1px .1px .1px .1px;
   margin:5px;
-  /*display:inline-block;*/
+/*  border:1px solid #e1e1e1;*/
+  display:inline-block;
   border-radius: 1px;
   /*position: fixed;*/
   padding-right: 5px;
   padding-left: 5px;
-  /*left: 50%;*/
-  text-align:center;
+  left: 50%;
 }
 /* end instafeed stuff */
 
