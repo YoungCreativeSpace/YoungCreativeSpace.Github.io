@@ -46,12 +46,12 @@
         userId: 1552817979,
         accessToken: '1552817979.467ede5.aedcc0ee538d4c4ba0419d5db7e449e4',
         useHttp: true,
-        limit: 9,
+        limit: 12,
         resolution: 'low_resolution',
   after: function () {
     var images = $("#instafeed").find('a');
     $.each(images, function(index, image) {
-      var delay = (index * 5) + 'ms';
+      var delay = (index * 75) + 'ms';
       $(image).css('-webkit-animation-delay', delay);
       $(image).css('-moz-animation-delay', delay);
       $(image).css('-ms-animation-delay', delay);
@@ -60,7 +60,7 @@
       $(image).addClass('animated flipInX');
     });
   },
-  template: '<a href="{{link}}" target="_blank"><img src="{{image}}"</div></a>'
+  template: '<a href="{{link}}" target="_blank"><img src="{{image}}" /></div></a>'
 });
     userFeed.run();
 </script>
@@ -215,7 +215,7 @@
                         </li>
                     </ul>
                     <a href="http://youngcreativespace.com/">
-                    <p class="copyright text-center text-muted">Copyright &copy; Young Creative Space 2014-2015</p>
+                    <p class="copyright text-center text-muted">Copyright &copy; Young Creative Space 2015</p>
                     </a>
                 </div>
                 </div>
