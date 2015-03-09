@@ -1,4 +1,4 @@
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
    #instafeed {
      display: table;
      margin: 0 auto;
@@ -11,7 +11,7 @@
      margin: 0 auto;
    }
 }
-
+*/
 
 
 /*navbar stuff*/
@@ -85,7 +85,8 @@ font-weight: bold;
   /*position: fixed;*/
 /*  padding-right: 5px;
   padding-left: 5px;*/
-  left: 50%;
+  max-width: 100%;
+  height: auto;
 
  /* float: right;*/
 }
@@ -99,7 +100,13 @@ font-weight: bold;
   /*position: fixed;*/
   padding-right: 5px;
   padding-left: 5px;
-  left: 50%;
+  max-width: 100%;
+  height: auto;
+}
+
+#instafeed a img {
+  max-width: 100%;
+  height: auto;
 }
 /* end instafeed stuff */
 
