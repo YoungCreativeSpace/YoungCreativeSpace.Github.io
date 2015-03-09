@@ -114,21 +114,22 @@
 
 <!--tumblr API stuff-->
 <script>
-// $.ajax({
-//     url: "http://api.tumblr.com/v2/blog/thejbac.tumblr.com/posts?api_key=wpj1WGeM4wq3wNjt9Y826dxWWS8i7H2mkSVBCcHZVQKUgUHPOZ",
-//     dataType: 'jsonp',
-//     success: function(results){
-//         // Logs to your javascript console.
-//         console.log(results); 
-//         // writes the title to a div with the Id "myDivId" (ie. <div id="myDivId"></div>)
-//         $("#myDivId").html(results.response.posts[1].body); 
+$.ajax({
+    url: "http://api.tumblr.com/v2/blog/thejbac.tumblr.com/posts?api_key=wpj1WGeM4wq3wNjt9Y826dxWWS8i7H2mkSVBCcHZVQKUgUHPOZ",
+    dataType: 'jsonp',
+    success: function(results){
+        // Logs to your javascript console.
+        console.log(results); 
+        // writes the title to a div with the Id "idNameHere" (ie. <div id="date"></div>)
+        // $("#date").html(results.response.posts[0].date);
+        $("#title").html(results.response.posts[0].title);
+        $("#body").html(results.response.posts[0].body);
+
 // console.log(results.response.posts);
 // console.log(results.response.posts[0].blog_name);
 // console.log(results.response.posts[0].description);
-// console.log(results.response.posts[1].blog_name);
-// console.log(results.response.posts[1].body);
-//     }
-// });
+    }
+});
 
 </script>   
 
@@ -150,12 +151,23 @@
         </div>
 
 <!--tumblr API stuff-->
-<!--   <div class ="row">
-    <div class="span4">
-            <div class="caption-full text-center">
-                <div id="myDivId"></div>
+<!--   <div class="container">
+    <div class ="row">
+        <div class="span4">
+            <div class="lead text-center">
+                <h2><div id="title"></div></h2>
             </div>
+        </div>
     </div>
+    <br>
+    <div class ="row">
+        <div class="span4">
+            <div class="caption-full">
+                <div id="body"></div>
+            </div>
+        </div>
+    </div>
+    <hr>
 </div> -->
 
 
