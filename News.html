@@ -112,27 +112,26 @@
 
 <body>
 
-<!-- api_key=wpj1WGeM4wq3wNjt9Y826dxWWS8i7H2mkSVBCcHZVQKUgUHPOZ -->
-
+<!--tumblr API stuff-->
 <script>
-$.ajax({
-    url: "http://api.tumblr.com/v2/blog/thejbac.tumblr.com/posts?api_key=wpj1WGeM4wq3wNjt9Y826dxWWS8i7H2mkSVBCcHZVQKUgUHPOZ",
-    dataType: 'jsonp',
-    success: function(results){
-        // Logs to your javascript console.
-        console.log(results); 
-        // writes the title to a div with the Id "myDivId" (ie. <div id="myDivId"></div>)
-        $("#myDivId").html(results.response.title); 
-console.log(results.response.posts);
-console.log(results.response.posts[0]);
-
-    }
-});
+// $.ajax({
+//     url: "http://api.tumblr.com/v2/blog/thejbac.tumblr.com/posts?api_key=wpj1WGeM4wq3wNjt9Y826dxWWS8i7H2mkSVBCcHZVQKUgUHPOZ",
+//     dataType: 'jsonp',
+//     success: function(results){
+//         // Logs to your javascript console.
+//         console.log(results); 
+//         // writes the title to a div with the Id "myDivId" (ie. <div id="myDivId"></div>)
+//         $("#myDivId").html(results.response.posts[1].body); 
+// console.log(results.response.posts);
+// console.log(results.response.posts[0].blog_name);
+// console.log(results.response.posts[0].description);
+// console.log(results.response.posts[1].blog_name);
+// console.log(results.response.posts[1].body);
+//     }
+// });
 
 </script>   
-<script>
 
-</script>
 
 
 <!--this will create the border around the webpage-->
@@ -141,13 +140,23 @@ console.log(results.response.posts[0]);
 <br>
 <br>
 
-  <div class ="row">
+    <!-- Page Content -->
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1>News</h1>
+                <br>
+                <h3>Coming Soon...</h3>
+            </div>
+        </div>
+
+<!--tumblr API stuff-->
+<!--   <div class ="row">
     <div class="span4">
             <div class="caption-full text-center">
                 <div id="myDivId"></div>
             </div>
     </div>
-</div>
+</div> -->
 
 
 
