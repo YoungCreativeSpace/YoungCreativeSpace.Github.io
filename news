@@ -75,25 +75,25 @@
                     </li>
 
                     <li>
-                        <a href="about">About</a>
+                        <a href="about.html">About</a>
                     </li>
                     <li>
-                        <a href="athletes">Athletes</a>
+                        <a href="athletes.html">Athletes</a>
                     </li>
                     <li>
-                        <a href="coach">Coach</a>
+                        <a href="coach.html">Coach</a>
                     </li>
                     <li>
-                        <a href="news">News</a>
+                        <a href="news.html">News</a>
                     </li>
                      <li>
-                        <a href="tweets">Tweets</a>
+                        <a href="tweets.html">Tweets</a>
                     </li>
                     <li>
-                        <a href="calendar">Calendar</a>
+                        <a href="calendar.html">Calendar</a>
                     </li>
                     <li>
-                        <a href="contact">Contact</a>
+                        <a href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
