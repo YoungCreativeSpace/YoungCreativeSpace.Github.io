@@ -58,29 +58,29 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="index">Home</a>
                     </li>
 
                     <li>
-                        <a href="About.html">About</a>
+                        <a href="about">About</a>
                     </li>
                     <li>
-                        <a href="Athletes.html">Athletes</a>
+                        <a href="athletes">Athletes</a>
                     </li>
                     <li>
-                        <a href="Coach.html">Coach</a>
+                        <a href="coach">Coach</a>
                     </li>
                     <li>
-                        <a href="News.html">News</a>
+                        <a href="news">News</a>
                     </li>
                      <li>
-                        <a href="Tweets.html">Tweets</a>
+                        <a href="tweets">Tweets</a>
                     </li>
                     <li>
-                        <a href="Calendar.html">Calendar</a>
+                        <a href="calendar">Calendar</a>
                     </li>
                     <li>
-                        <a href="Contact.html">Contact</a>
+                        <a href="contact">Contact</a>
                     </li>
                 </ul>
             </div>

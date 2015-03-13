@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>About</title>
+    <title>Jacuzzi Boys Athletic Club</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -17,11 +17,17 @@
     <!-- Custom CSS -->
     <link href="css/shop-item.css" rel="stylesheet">
 
-        <!--overwritten CSS -->
-    <link href="css/stylesheet.css" rel="stylesheet">
-
-       <!-- Custom Fonts -->
+   <!-- Custom Fonts -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap Social Buttons CSS -->
+    <link href="css/social-buttons.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+<!--     <link href="css/clean-blog.min.css" rel="stylesheet"> -->
+
+    <!--overwritten CSS -->
+    <link href="css/stylesheet.css" rel="stylesheet">
 
     <link rel='shortcut icon' type='image/x-icon' href='../favicon.png' />
 
@@ -33,6 +39,7 @@
     <![endif]-->
 
 </head>
+
 <header>
 <div class="container">
     <div class="row">
@@ -58,29 +65,29 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="index">Home</a>
                     </li>
 
                     <li>
-                        <a href="About.html">About</a>
+                        <a href="about">About</a>
                     </li>
                     <li>
-                        <a href="Athletes.html">Athletes</a>
+                        <a href="athletes">Athletes</a>
                     </li>
                     <li>
-                        <a href="Coach.html">Coach</a>
+                        <a href="coach">Coach</a>
                     </li>
                     <li>
-                        <a href="News.html">News</a>
+                        <a href="news">News</a>
                     </li>
                      <li>
-                        <a href="Tweets.html">Tweets</a>
+                        <a href="tweets">Tweets</a>
                     </li>
                     <li>
-                        <a href="Calendar.html">Calendar</a>
+                        <a href="calendar">Calendar</a>
                     </li>
                     <li>
-                        <a href="Contact.html">Contact</a>
+                        <a href="contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -96,40 +103,29 @@
 </div>
 
 </header>
+
 <body>
+
+<!--this will create the border around the webpage-->
 <div id="wrapper" class="container">
 
     <!-- Page Content -->
-<div class="container-fluid">
-
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h1>About the JBAC</h1>
+                <h1>Calendar</h1>
                 <br>
             </div>
         </div>
 
-    <div class="row-fluid">
-      <div class="col-md-4 center-block"><img class="img-circle img-responsive img-center" src="AboutPic1.jpg">
-    </div>
-    </div>
-    <br>
-    <div class ="row-fluid">
-        <div class="span4">
-            <div class="caption-full">
-                <p class="lead">Working hard. Enjoying the experience. Not missing the forest for the trees. It's from these ideals that the Jacuzzi Boys Athletic Club was born.
-                Founded in 2014, based in Portland, Oregon, and with members hailing from all across the country, the dudes of the JBAC are committed to enjoying the ride, sharing the experience, and getting after it - in sport, and in life.
-                </p>
-            </div>
-        </div>
-    </div>
-<br>
+
+<div class="responsive-iframe-container">
+<div class="hidden-phone responsive-iframe-container"><iframe src="https://www.google.com/calendar/embed?src=bggchj9mn8hd74eo3oi7hr12rs%40group.calendar.google.com&ctz=America/Los_Angeles" height="575" width="575" frameborder="0" scrolling="no"></iframe></div>
+<div class="visible-phone"><iframe src="https://www.google.com/calendar/embed?src=bggchj9mn8hd74eo3oi7hr12rs%40group.calendar.google.com&ctz=America/Los_Angeles" height="500" width="280" frameborder="0" scrolling="no"></iframe></div>
 </div>
 <br>
-<br>
+
 </div>
 </body>
-
 
     <!-- Footer -->
     <footer>
@@ -171,7 +167,6 @@
             </div>
         </div>
     </footer>
-    <!-- /.container -->
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -181,4 +176,6 @@
 
 
 
+
 </html>
+

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
     <meta charset="utf-8">
@@ -26,16 +25,10 @@
         <!-- Custom CSS -->
 <!--     <link href="css/clean-blog.min.css" rel="stylesheet"> -->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-<!--AJAX-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
-<link rel='shortcut icon' type='image/x-icon' href='../favicon.png' />
-
     <!--overwritten CSS -->
     <link href="css/stylesheet.css" rel="stylesheet">
+
+<link rel='shortcut icon' type='image/x-icon' href='../favicon.png' />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -43,6 +36,34 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+           <!--instafeed.js (for showing instagram feed)-->
+     <script src="js/instafeed.min.js"></script>
+
+<script type="text/javascript">
+    var userFeed = new Instafeed({
+        get: 'user',
+        userId: 1552817979,
+        accessToken: '1552817979.467ede5.aedcc0ee538d4c4ba0419d5db7e449e4',
+        useHttp: true,
+        limit: 9,
+        resolution: 'low_resolution',
+  after: function () {
+    var images = $("#instafeed").find('a');
+    $.each(images, function(index, image) {
+      var delay = (index * 5) + 'ms';
+      $(image).css('-webkit-animation-delay', delay);
+      $(image).css('-moz-animation-delay', delay);
+      $(image).css('-ms-animation-delay', delay);
+      $(image).css('-o-animation-delay', delay);
+      $(image).css('animation-delay', delay);
+      $(image).addClass('animated flipInX');
+    });
+  },
+  template: '<a href="{{link}}" target="_blank"><img src="{{image}}"</div></a>'
+});
+    userFeed.run();
+</script>
 
 </head>
 
@@ -71,29 +92,29 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="index">Home</a>
                     </li>
 
                     <li>
-                        <a href="About.html">About</a>
+                        <a href="about">About</a>
                     </li>
                     <li>
-                        <a href="Athletes.html">Athletes</a>
+                        <a href="athletes">Athletes</a>
                     </li>
                     <li>
-                        <a href="Coach.html">Coach</a>
+                        <a href="coach">Coach</a>
                     </li>
                     <li>
-                        <a href="News.html">News</a>
+                        <a href="news">News</a>
                     </li>
                      <li>
-                        <a href="Tweets.html">Tweets</a>
+                        <a href="tweets">Tweets</a>
                     </li>
                     <li>
-                        <a href="Calendar.html">Calendar</a>
+                        <a href="calendar">Calendar</a>
                     </li>
                     <li>
-                        <a href="Contact.html">Contact</a>
+                        <a href="contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -111,81 +132,61 @@
 </header>
 
 <body>
-
-<!--tumblr API stuff-->
-<script>
-$.ajax({
-    url: "http://api.tumblr.com/v2/blog/thejbac.tumblr.com/posts?api_key=wpj1WGeM4wq3wNjt9Y826dxWWS8i7H2mkSVBCcHZVQKUgUHPOZ",
-    dataType: 'jsonp',
-    success: function(results){
-        // Logs to your javascript console.
-        console.log(results); 
-        // writes the title to a div with the Id "idNameHere" (ie. <div id="date"></div>)
-        // $("#date").html(results.response.posts[0].date);
-        $("#title").html(results.response.posts[0].title);
-        $("#body").html(results.response.posts[0].body);
-
-// console.log(results.response.posts);
-// console.log(results.response.posts[0].blog_name);
-// console.log(results.response.posts[0].description);
-    }
-});
-
-</script>   
-
-
-
 <!--this will create the border around the webpage-->
+<!-- <div id="wrapper" class="container"> -->
 <div id="wrapper" class="container">
 
-<br>
-<br>
-
     <!-- Page Content -->
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h1>News</h1>
-<!--                 <h3>Coming Soon...</h3> -->
-            </div>
-        </div>
-
-<!--tumblr API stuff-->
-  <div class="container">
+<div class="container-fluid">
+<br>
     <div class ="row">
         <div class="span4">
-            <div class="lead text-center">
-                <h2><div id="title"></div></h2>
+            <div class="caption-full text-center">
+            <div class="span4"><img class="img-circle img-responsive center-block" src="JBACMain2.jpg">
+                        <div class="font-effect-outline">
+            <h1>We Are the Jacuzzi Boys</h1>
+            </div>
+            </div>
+            </div>
+            <br>
+            <div class = "container-fluid">
+            <p class="lead">A band of former collegiate distance runners took their infatuation with endurance athletics and transformed it from a recreational activity into something with conviction. Sure, we're committed to each other, but we're also committed to ourselves: to giving our potentially aimless ambitions a pointed, focused direction, while not waiting for all the stars to perfectly align only to be blinded by the sun. It's from these ideals - celebrating the process and sharing the experience with great friends - that the Jacuzzi Boys Athletic Club was born. </p>
+        </div>
+    </div>
+</div> 
+
+<br>
+ <div class ="row">
+       <div class="span4">
+            <div class="caption-full text-center">
+            <a href="http://instagram.com/thejbac">
+            <h3>Follow us @theJBAC</h3>
+            </a>
+            </div>
+            </div>
+            </div>
+
+
+    <div class ="row">
+    <div class = "container-fluid">
+            <div class="caption-full text-center">
+                <div id="instafeed"></div>
             </div>
         </div>
     </div>
-
-    <div class ="row">
-        <div class="span4">
-        <div class="lead">
-            <div class="newsContainer">
-                <div id="body"></div>
-            </div>
-        </div>
-        </div>
-        </div>
-    </div>
-    <hr>
+<!-- </div> -->
+<br>
+<br>
 </div>
-
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+</div>
 </body>
 
     <!-- Footer -->
     <footer>
+    <br>
+    <br>
         <div class="container">
             <div class="row">
-            <br>
-            <br>
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <ul class="list-inline text-center">
                         <li>
@@ -217,12 +218,11 @@ $.ajax({
                     <p class="copyright text-center text-muted">Copyright &copy; Young Creative Space 2015</p>
                     </a>
                 </div>
+                </div>
             </div>
-        </div>
     </footer>
-
-
-
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
@@ -231,4 +231,3 @@ $.ajax({
 
 
 </html>
-
