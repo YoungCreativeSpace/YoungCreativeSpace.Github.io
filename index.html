@@ -11,7 +11,7 @@
     <title>Jacuzzi Boys Athletic Club</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/shop-item.css" rel="stylesheet">
@@ -144,14 +144,62 @@
 <br>
     <div class ="row">
         <div class="span4">
-            <div class="caption-full text-center">
+
+<!-- Begin Carousel -->
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12 text-center">
+                    <div id="carousel-example-generic" class="carousel slide">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators hidden-xs">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="img-responsive img-full center-block" src="JCBAC_Athlete_Photos/jbacCover3.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive center-block img-full" src="JCBAC_Athlete_Photos/jbacCover4.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive center-block img-full" src="JCBAC_Athlete_Photos/jbacCover2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive center-block img-full" src="JCBAC_Athlete_Photos/jbacCover1.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                            <span class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                            <span class="icon-next"></span>
+                        </a>
+                        
+<h1 class="brand-name">We Are the Jacuzzi Boys</h1>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+<!-- End Carousel -->
+
+
+
+<!--             <div class="caption-full text-center">
             <div class="span4"><img class="img-circle img-responsive center-block" src="JBACMain.jpg">
-                        <div class="font-effect-outline">
-            <h1>We Are the Jacuzzi Boys</h1>
+            <div class="font-effect-outline">
+                <h1>We Are the Jacuzzi Boys</h1>
             </div>
             </div>
-            </div>
-            <br>
+            </div> -->
+
             <div class = "container-fluid">
             <p class="lead">A band of former collegiate distance runners took their infatuation with endurance athletics and transformed it from a recreational activity into something with conviction. Sure, we're committed to each other, but we're also committed to ourselves: to giving our potentially aimless ambitions a pointed, focused direction, while not waiting for all the stars to perfectly align only to be blinded by the sun. It's from these ideals - celebrating the process and sharing the experience with great friends - that the Jacuzzi Boys Athletic Club was born. </p>
         </div>
@@ -224,8 +272,19 @@
                 </div>
             </div>
     </footer>
+
+        <!-- Script to Activate the Carousel -->
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+<!-- Bootstrap js -->
+    <script src="js/bootstrap.js"></script>
+
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
